@@ -49,6 +49,31 @@
       <p><strong>Địa chỉ:</strong> Hiền Tài Toàn Cầu – Hẻm 5 tổ 6, KP4A, Trảng Dài, Đồng Nai.</p>
       <p><strong>Điện thoại:</strong> 0838366566 – 0972366566</p>
       <p><strong>Website:</strong> www.hientaitoancau.com.vn</p>
+      <form class="register-form" onsubmit="guiDangKy(event)">
+  <h3>Đăng ký học thử</h3>
+
+  <label>Họ và tên phụ huynh/học viên</label>
+  <input type="text" id="hoTen" placeholder="Nhập họ và tên" required>
+
+  <label>Số điện thoại</label>
+  <input type="tel" id="soDienThoai" placeholder="Nhập số điện thoại" required>
+
+  <label>Chọn lớp học</label>
+  <select id="lopHoc" required>
+    <option value="">-- Chọn lớp học --</option>
+    <option>Cờ vua</option>
+    <option>Taekwondo</option>
+    <option>Boxing</option>
+    <option>Toán Soroban</option>
+    <option>Vẽ sáng tạo</option>
+    <option>Đàn Piano</option>
+  </select>
+
+  <label>Ghi chú</label>
+  <textarea id="ghiChu" placeholder="Ví dụ: Bé 7 tuổi, muốn học thử cuối tuần"></textarea>
+
+  <button type="submit" class="button">Gửi đăng ký</button>
+</form>
       <a href="tel:0838366566" class="button">Gọi tư vấn ngay</a>
     </div>
 
