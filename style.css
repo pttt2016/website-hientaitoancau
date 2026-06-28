@@ -82,3 +82,37 @@ body {
   padding: 20px;
   margin-top: 40px;
 }
+.register-form {
+  margin-top: 25px;
+  padding: 20px;
+  background: #f4f8ff;
+  border-radius: 15px;
+  border: 1px solid #d6e4ff;
+}
+
+.register-form h3 {
+  color: #004aad;
+  margin-top: 0;
+}
+
+.register-form label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.register-form input,
+.register-form select,
+.register-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border: 1px solid #b8c7e0;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.register-form textarea {
+  min-height: 90px;
+}
